@@ -45,3 +45,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 ifneq ($(TARGET_BUILD_VARIANT),user)
     SELINUX_IGNORE_NEVERALLOWS := true
 endif
+
+# Packages
+include vendor/aosdp/config/packages.mk
