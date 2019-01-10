@@ -46,5 +46,8 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
     SELINUX_IGNORE_NEVERALLOWS := true
 endif
 
+# Bootanimation
+include vendor/aosdp/prebuilt/common/bootanimation/bootanimation.mk
+
 # Packages
 include vendor/aosdp/config/packages.mk
