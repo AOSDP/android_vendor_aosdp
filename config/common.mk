@@ -51,3 +51,6 @@ include vendor/aosdp/prebuilt/common/bootanimation/bootanimation.mk
 
 # Packages
 include vendor/aosdp/config/packages.mk
+
+# Versioning
+include vendor/aosdp/config/version.mk
